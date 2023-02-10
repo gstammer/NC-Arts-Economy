@@ -1,11 +1,16 @@
 ---
-title: "NC-Arts-Economy"
+title: "NC Arts Economy Mapped"
 author: "Georgie Stammer"
 date: '2023-02-09'
 output: html_document
 ---
 
-```{r set-up}
+```{r include = FALSE}
+knitr::opts_chunk$set(include = FALSE)
+```
+
+
+```{r set-up-libraries}
 library(leaflet)
 library(rgdal)
 library(tidyverse)
@@ -163,6 +168,9 @@ map <- leaflet() %>%
     }")
 ```
 
+```{r run-map, include = TRUE, echo = FALSE}
+map
+```
 
 
 
