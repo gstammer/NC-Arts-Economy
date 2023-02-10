@@ -5,5 +5,164 @@ date: '2023-02-09'
 output: html_document
 ---
 
+```{r set-up}
+library(leaflet)
+library(rgdal)
+library(tidyverse)
+library(sf)
+library(sp)
+library(spdplyr)
+library(RColorBrewer)
+library(htmlwidgets)
+```
+
+```{r geodata-setup}
+geo_data <- readOGR("data/north-carolina-geographic-regions.geojson")
+
+geo_clean <- geo_data %>%
+  filter(region_type == "Other // Region") %>%
+  select(county)
+
+```
+
+```{r GDP-map-setup}
+artsGDPraw <- read_csv("data/Arts-GDP-2021.csv", skip = 3)
+
+artsGDP <- artsGDPraw %>%
+  mutate(GeoName = substr(GeoName, start = 1, stop = nchar(GeoName) - 4)) %>%
+  slice(2:101) %>%
+  rename(county = GeoName, ArtsGDP = `2021`) %>%
+  select(county, ArtsGDP) %>%
+  transform(ArtsGDP = as.numeric(ArtsGDP))
+
+gdp_map <- left_join(geo_clean, artsGDP)
+
+# pop-up info
+gdp_map$info <- paste("<strong>",gdp_map$county,"</strong>", "</br>",
+                       "Arts GDP: $",
+                       prettyNum(gdp_map$ArtsGDP * 1000, big.mark = ","))
+```
+
+```{r jobs-map-setup}
+jobsraw <- read_csv("data/Arts-Employment-2021.csv", skip = 3)
+
+artsjobs <- jobsraw %>%
+  mutate(GeoName = substr(GeoName, start = 1, stop = nchar(GeoName) - 4)) %>%
+  slice(2:101) %>%
+  rename(county = GeoName, ArtsJobs = `2021`) %>%
+  select(county, ArtsJobs) %>%
+  transform(ArtsJobs = as.numeric(ArtsJobs))
+
+jobs_map <- left_join(geo_clean, artsjobs)
+
+# pop-up info
+jobs_map$info <- paste("<strong>",jobs_map$county,"</strong>", "</br>",
+                       "Arts Employment: ",
+                       prettyNum(jobs_map$ArtsJobs, big.mark = ","))
+```
+
+
+
+```{r preparing-colors}
+GDPbins <- c(0, 1000, 5000, 10000, 50000, 100000, 1500000)
+GDPlabels <- c("< $1,000,000",
+               "$1,000,000 - $5,000,000",
+               "$5,000,000 - $10,000,000",
+               "$10,000,000 - $50,000,000",
+               "$50,000,000 - $100,000,000",
+               "> $100,000,000",
+               "No data")
+GDPColor <- colorBin("YlGn", domain = artsGDP$ArtsGDP, bins = GDPbins)
+
+jobsbins <- c(0, 100, 500, 1000, 5000, 10000, 25000)
+jobslabels <- c("< 100",
+               "100 - 500",
+               "500 - 1,000",
+               "1,000 - 5,000",
+               "5,000 - 10,000",
+               "> 10,000",
+               "No data")
+jobscolor <- colorBin("YlGn", domain = artsjobs$ArtsJobs, bins = jobsbins)
+```
+
+
+
+```{r make-map}
+map <- leaflet() %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  
+  # handling different layers
+  addLayersControl(baseGroups = c("Arts Industry GDP", "Arts Industry Jobs"),
+                   position = "topleft",
+                   options = layersControlOptions(collapsed = FALSE)) %>%
+  
+  # Arts GDP map:
+  addPolygons(data = gdp_map,
+              stroke = TRUE,
+              weight = 0.5,
+              color = "#005a32",
+              opacity = 1,
+              fillColor = ~GDPColor(ArtsGDP),
+              fillOpacity = 0.8,
+              smoothFactor = 0.3,
+              popup = ~info,
+              highlightOptions = highlightOptions(color = "#000000", weight = 1.5,
+                                                  bringToFront = TRUE, fillOpacity = 0.5),
+              group = "Arts Industry GDP") %>%
+  addLegend("topleft",
+            opacity = 0.8,
+            colors = c("#ffffcc", "#d9f0a3", "#addd8e", "#78c679", "#31a354", "#006837", "#888888"),
+            title = "GDP of the Arts Industry (2021)",
+            labels = GDPlabels,
+            layerId = "Arts Industry GDP") %>%
+  
+  # Arts jobs map
+  addPolygons(data = jobs_map,
+              stroke = TRUE,
+              weight = 0.5,
+              color = "#005a32",
+              opacity = 1,
+              fillColor = ~jobscolor(ArtsJobs),
+              fillOpacity = 0.8,
+              smoothFactor = 0.3,
+              popup = ~info,
+              highlightOptions = highlightOptions(color = "#000000", weight = 1.5,
+                                                  bringToFront = TRUE, fillOpacity = 0.5),
+              group = "Arts Industry Jobs") %>%
+  addLegend("topleft",
+            opacity = 0.8,
+            colors = c("#ffffcc", "#d9f0a3", "#addd8e", "#78c679", "#31a354", "#006837", "#888888"),
+            title = "Employment in the Arts (2021)",
+            labels = jobslabels,
+            layerId = "Arts Industry Jobs") %>%
+  
+  #handling switching legends (from noamross on github)
+  htmlwidgets::onRender("
+    function(el, x) {
+      var initialLegend = 'Arts Industry GDP' // Set the initial legend to be displayed by layerId
+      var myMap = this;
+      for (var legend in myMap.controls._controlsById) {
+        var el = myMap.controls.get(legend.toString())._container;
+        if(legend.toString() === initialLegend) {
+          el.style.display = 'block';
+        } else {
+          el.style.display = 'none';
+        };
+      };
+    myMap.on('baselayerchange',
+      function (layer) {
+        for (var legend in myMap.controls._controlsById) {
+          var el = myMap.controls.get(legend.toString())._container;
+          if(legend.toString() === layer.name) {
+            el.style.display = 'block';
+          } else {
+            el.style.display = 'none';
+          };
+        };
+      });
+    }")
+```
+
+
 
 
