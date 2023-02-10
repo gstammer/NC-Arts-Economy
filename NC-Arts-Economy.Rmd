@@ -1,0 +1,9 @@
+---
+title: "NC-Arts-Economy"
+author: "Georgie Stammer"
+date: '2023-02-09'
+output: html_document
+---
+
+
+
