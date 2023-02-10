@@ -1,0 +1,111 @@
+CAEMP25N Total full-time and part-time employment by NAICS industry 1/
+CAEMP25N Total full-time and part-time employment by NAICS industry 1/
+County
+GeoFips,GeoName,2021
+37000,North Carolina,124959
+37001,"Alamance, NC",1410
+37003,"Alexander, NC",200
+37005,"Alleghany, NC",248
+37007,"Anson, NC",(D)
+37009,"Ashe, NC",195
+37011,"Avery, NC",893
+37013,"Beaufort, NC",318
+37015,"Bertie, NC",45
+37017,"Bladen, NC",79
+37019,"Brunswick, NC",2320
+37021,"Buncombe, NC",6957
+37023,"Burke, NC",418
+37025,"Cabarrus, NC",4024
+37027,"Caldwell, NC",422
+37029,"Camden, NC",(D)
+37031,"Carteret, NC",1050
+37033,"Caswell, NC",70
+37035,"Catawba, NC",1690
+37037,"Chatham, NC",957
+37039,"Cherokee, NC",159
+37041,"Chowan, NC",80
+37043,"Clay, NC",93
+37045,"Cleveland, NC",785
+37047,"Columbus, NC",133
+37049,"Craven, NC",816
+37051,"Cumberland, NC",2229
+37053,"Currituck, NC",512
+37055,"Dare, NC",950
+37057,"Davidson, NC",1251
+37059,"Davie, NC",370
+37061,"Duplin, NC",(D)
+37063,"Durham, NC",4730
+37065,"Edgecombe, NC",235
+37067,"Forsyth, NC",4821
+37069,"Franklin, NC",320
+37071,"Gaston, NC",1632
+37073,"Gates, NC",(D)
+37075,"Graham, NC",(D)
+37077,"Granville, NC",291
+37079,"Greene, NC",(D)
+37081,"Guilford, NC",6790
+37083,"Halifax, NC",178
+37085,"Harnett, NC",732
+37087,"Haywood, NC",705
+37089,"Henderson, NC",1333
+37091,"Hertford, NC",(D)
+37093,"Hoke, NC",229
+37095,"Hyde, NC",(D)
+37097,"Iredell, NC",3253
+37099,"Jackson, NC",831
+37101,"Johnston, NC",1452
+37103,"Jones, NC",(D)
+37105,"Lee, NC",446
+37107,"Lenoir, NC",292
+37109,"Lincoln, NC",777
+37111,"McDowell, NC",212
+37113,"Macon, NC",522
+37115,"Madison, NC",329
+37117,"Martin, NC",82
+37119,"Mecklenburg, NC",21608
+37121,"Mitchell, NC",(D)
+37123,"Montgomery, NC",195
+37125,"Moore, NC",1782
+37127,"Nash, NC",574
+37129,"New Hanover, NC",3883
+37131,"Northampton, NC",(D)
+37133,"Onslow, NC",1235
+37135,"Orange, NC",2875
+37137,"Pamlico, NC",361
+37139,"Pasquotank, NC",286
+37141,"Pender, NC",519
+37143,"Perquimans, NC",(D)
+37145,"Person, NC",149
+37147,"Pitt, NC",1388
+37149,"Polk, NC",492
+37151,"Randolph, NC",889
+37153,"Richmond, NC",177
+37155,"Robeson, NC",326
+37157,"Rockingham, NC",434
+37159,"Rowan, NC",1198
+37161,"Rutherford, NC",371
+37163,"Sampson, NC",216
+37165,"Scotland, NC",126
+37167,"Stanly, NC",449
+37169,"Stokes, NC",250
+37171,"Surry, NC",353
+37173,"Swain, NC",528
+37175,"Transylvania, NC",527
+37177,"Tyrrell, NC",6
+37179,"Union, NC",1996
+37181,"Vance, NC",327
+37183,"Wake, NC",18605
+37185,"Warren, NC",68
+37187,"Washington, NC",22
+37189,"Watauga, NC",1354
+37191,"Wayne, NC",546
+37193,"Wilkes, NC",310
+37195,"Wilson, NC",469
+37197,"Yadkin, NC",182
+37199,"Yancey, NC",(D)
+
+Legend/Footnotes
+1/ The estimates of employment for 2001-2006 are based on the 2002 North American Industry Classification System (NAICS). The estimates for 2007-2010 are based on the 2007 NAICS. The estimates for 2011-2016 are based on the 2012 NAICS. The estimates for 2017 forward are based on the 2017 NAICS.
+"  Metropolitan Areas are defined (geographically delineated) by the Office of Management and Budget (OMB) bulletin no. 20-01 issued March 6, 2020."
+(D) Not shown to avoid disclosure of confidential information; estimates are included in higher-level totals.
+"  Last updated: November 16, 2022-- new statistics for 2021; revised statistics for 2017-2020."

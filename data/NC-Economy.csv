@@ -1,0 +1,717 @@
+CAINC30 Economic profile
+CAINC30 Economic profile
+County
+GeoFips,GeoName,LineCode,Description,2021
+37000,North Carolina,,Place of residence profile,
+37000,North Carolina,10,Personal income (thousands of dollars),592695039
+37000,North Carolina,100,"  Population (persons) 3/",10551162
+37000,North Carolina,,Place of work profile (thousands of dollars),
+37000,North Carolina,180,"  Earnings by place of work",399284734
+37000,North Carolina,190,"    Wages and salaries",292859423
+37000,North Carolina,240,Total employment (number of jobs),6275500
+37001,"Alamance, NC",,Place of residence profile,
+37001,"Alamance, NC",10,Personal income (thousands of dollars),8366592
+37001,"Alamance, NC",100,"  Population (persons) 3/",173877
+37001,"Alamance, NC",,Place of work profile (thousands of dollars),
+37001,"Alamance, NC",180,"  Earnings by place of work",4616368
+37001,"Alamance, NC",190,"    Wages and salaries",3453884
+37001,"Alamance, NC",240,Total employment (number of jobs),87667
+37003,"Alexander, NC",,Place of residence profile,
+37003,"Alexander, NC",10,Personal income (thousands of dollars),1704413
+37003,"Alexander, NC",100,"  Population (persons) 3/",36644
+37003,"Alexander, NC",,Place of work profile (thousands of dollars),
+37003,"Alexander, NC",180,"  Earnings by place of work",649797
+37003,"Alexander, NC",190,"    Wages and salaries",409400
+37003,"Alexander, NC",240,Total employment (number of jobs),14239
+37005,"Alleghany, NC",,Place of residence profile,
+37005,"Alleghany, NC",10,Personal income (thousands of dollars),499485
+37005,"Alleghany, NC",100,"  Population (persons) 3/",11049
+37005,"Alleghany, NC",,Place of work profile (thousands of dollars),
+37005,"Alleghany, NC",180,"  Earnings by place of work",198497
+37005,"Alleghany, NC",190,"    Wages and salaries",131132
+37005,"Alleghany, NC",240,Total employment (number of jobs),5909
+37007,"Anson, NC",,Place of residence profile,
+37007,"Anson, NC",10,Personal income (thousands of dollars),1053223
+37007,"Anson, NC",100,"  Population (persons) 3/",22060
+37007,"Anson, NC",,Place of work profile (thousands of dollars),
+37007,"Anson, NC",180,"  Earnings by place of work",498886
+37007,"Anson, NC",190,"    Wages and salaries",301282
+37007,"Anson, NC",240,Total employment (number of jobs),9549
+37009,"Ashe, NC",,Place of residence profile,
+37009,"Ashe, NC",10,Personal income (thousands of dollars),1180718
+37009,"Ashe, NC",100,"  Population (persons) 3/",26711
+37009,"Ashe, NC",,Place of work profile (thousands of dollars),
+37009,"Ashe, NC",180,"  Earnings by place of work",475417
+37009,"Ashe, NC",190,"    Wages and salaries",337873
+37009,"Ashe, NC",240,Total employment (number of jobs),13113
+37011,"Avery, NC",,Place of residence profile,
+37011,"Avery, NC",10,Personal income (thousands of dollars),768549
+37011,"Avery, NC",100,"  Population (persons) 3/",17864
+37011,"Avery, NC",,Place of work profile (thousands of dollars),
+37011,"Avery, NC",180,"  Earnings by place of work",414120
+37011,"Avery, NC",190,"    Wages and salaries",296955
+37011,"Avery, NC",240,Total employment (number of jobs),10462
+37013,"Beaufort, NC",,Place of residence profile,
+37013,"Beaufort, NC",10,Personal income (thousands of dollars),2408608
+37013,"Beaufort, NC",100,"  Population (persons) 3/",44468
+37013,"Beaufort, NC",,Place of work profile (thousands of dollars),
+37013,"Beaufort, NC",180,"  Earnings by place of work",1111136
+37013,"Beaufort, NC",190,"    Wages and salaries",760383
+37013,"Beaufort, NC",240,Total employment (number of jobs),22875
+37015,"Bertie, NC",,Place of residence profile,
+37015,"Bertie, NC",10,Personal income (thousands of dollars),846836
+37015,"Bertie, NC",100,"  Population (persons) 3/",17505
+37015,"Bertie, NC",,Place of work profile (thousands of dollars),
+37015,"Bertie, NC",180,"  Earnings by place of work",374329
+37015,"Bertie, NC",190,"    Wages and salaries",235213
+37015,"Bertie, NC",240,Total employment (number of jobs),7541
+37017,"Bladen, NC",,Place of residence profile,
+37017,"Bladen, NC",10,Personal income (thousands of dollars),1404404
+37017,"Bladen, NC",100,"  Population (persons) 3/",29525
+37017,"Bladen, NC",,Place of work profile (thousands of dollars),
+37017,"Bladen, NC",180,"  Earnings by place of work",870713
+37017,"Bladen, NC",190,"    Wages and salaries",599018
+37017,"Bladen, NC",240,Total employment (number of jobs),17606
+37019,"Brunswick, NC",,Place of residence profile,
+37019,"Brunswick, NC",10,Personal income (thousands of dollars),7983893
+37019,"Brunswick, NC",100,"  Population (persons) 3/",144215
+37019,"Brunswick, NC",,Place of work profile (thousands of dollars),
+37019,"Brunswick, NC",180,"  Earnings by place of work",2788831
+37019,"Brunswick, NC",190,"    Wages and salaries",1827192
+37019,"Brunswick, NC",240,Total employment (number of jobs),59225
+37021,"Buncombe, NC",,Place of residence profile,
+37021,"Buncombe, NC",10,Personal income (thousands of dollars),15720415
+37021,"Buncombe, NC",100,"  Population (persons) 3/",271534
+37021,"Buncombe, NC",,Place of work profile (thousands of dollars),
+37021,"Buncombe, NC",180,"  Earnings by place of work",10405983
+37021,"Buncombe, NC",190,"    Wages and salaries",7364774
+37021,"Buncombe, NC",240,Total employment (number of jobs),190738
+37023,"Burke, NC",,Place of residence profile,
+37023,"Burke, NC",10,Personal income (thousands of dollars),3924827
+37023,"Burke, NC",100,"  Population (persons) 3/",87611
+37023,"Burke, NC",,Place of work profile (thousands of dollars),
+37023,"Burke, NC",180,"  Earnings by place of work",1915824
+37023,"Burke, NC",190,"    Wages and salaries",1375234
+37023,"Burke, NC",240,Total employment (number of jobs),39457
+37025,"Cabarrus, NC",,Place of residence profile,
+37025,"Cabarrus, NC",10,Personal income (thousands of dollars),12407280
+37025,"Cabarrus, NC",100,"  Population (persons) 3/",231278
+37025,"Cabarrus, NC",,Place of work profile (thousands of dollars),
+37025,"Cabarrus, NC",180,"  Earnings by place of work",5940592
+37025,"Cabarrus, NC",190,"    Wages and salaries",4257863
+37025,"Cabarrus, NC",240,Total employment (number of jobs),114553
+37027,"Caldwell, NC",,Place of residence profile,
+37027,"Caldwell, NC",10,Personal income (thousands of dollars),3528807
+37027,"Caldwell, NC",100,"  Population (persons) 3/",80463
+37027,"Caldwell, NC",,Place of work profile (thousands of dollars),
+37027,"Caldwell, NC",180,"  Earnings by place of work",1748217
+37027,"Caldwell, NC",190,"    Wages and salaries",1283779
+37027,"Caldwell, NC",240,Total employment (number of jobs),34547
+37029,"Camden, NC",,Place of residence profile,
+37029,"Camden, NC",10,Personal income (thousands of dollars),600872
+37029,"Camden, NC",100,"  Population (persons) 3/",10835
+37029,"Camden, NC",,Place of work profile (thousands of dollars),
+37029,"Camden, NC",180,"  Earnings by place of work",105097
+37029,"Camden, NC",190,"    Wages and salaries",62077
+37029,"Camden, NC",240,Total employment (number of jobs),2641
+37031,"Carteret, NC",,Place of residence profile,
+37031,"Carteret, NC",10,Personal income (thousands of dollars),4163281
+37031,"Carteret, NC",100,"  Population (persons) 3/",68541
+37031,"Carteret, NC",,Place of work profile (thousands of dollars),
+37031,"Carteret, NC",180,"  Earnings by place of work",1675831
+37031,"Carteret, NC",190,"    Wages and salaries",1111094
+37031,"Carteret, NC",240,Total employment (number of jobs),37430
+37033,"Caswell, NC",,Place of residence profile,
+37033,"Caswell, NC",10,Personal income (thousands of dollars),959596
+37033,"Caswell, NC",100,"  Population (persons) 3/",22714
+37033,"Caswell, NC",,Place of work profile (thousands of dollars),
+37033,"Caswell, NC",180,"  Earnings by place of work",205891
+37033,"Caswell, NC",190,"    Wages and salaries",137430
+37033,"Caswell, NC",240,Total employment (number of jobs),5501
+37035,"Catawba, NC",,Place of residence profile,
+37035,"Catawba, NC",10,Personal income (thousands of dollars),8625094
+37035,"Catawba, NC",100,"  Population (persons) 3/",161723
+37035,"Catawba, NC",,Place of work profile (thousands of dollars),
+37035,"Catawba, NC",180,"  Earnings by place of work",6440981
+37035,"Catawba, NC",190,"    Wages and salaries",4840083
+37035,"Catawba, NC",240,Total employment (number of jobs),111318
+37037,"Chatham, NC",,Place of residence profile,
+37037,"Chatham, NC",10,Personal income (thousands of dollars),5890292
+37037,"Chatham, NC",100,"  Population (persons) 3/",77889
+37037,"Chatham, NC",,Place of work profile (thousands of dollars),
+37037,"Chatham, NC",180,"  Earnings by place of work",1251483
+37037,"Chatham, NC",190,"    Wages and salaries",787548
+37037,"Chatham, NC",240,Total employment (number of jobs),29639
+37039,"Cherokee, NC",,Place of residence profile,
+37039,"Cherokee, NC",10,Personal income (thousands of dollars),1180820
+37039,"Cherokee, NC",100,"  Population (persons) 3/",29167
+37039,"Cherokee, NC",,Place of work profile (thousands of dollars),
+37039,"Cherokee, NC",180,"  Earnings by place of work",492008
+37039,"Cherokee, NC",190,"    Wages and salaries",338540
+37039,"Cherokee, NC",240,Total employment (number of jobs),11941
+37041,"Chowan, NC",,Place of residence profile,
+37041,"Chowan, NC",10,Personal income (thousands of dollars),692417
+37041,"Chowan, NC",100,"  Population (persons) 3/",13722
+37041,"Chowan, NC",,Place of work profile (thousands of dollars),
+37041,"Chowan, NC",180,"  Earnings by place of work",325568
+37041,"Chowan, NC",190,"    Wages and salaries",227513
+37041,"Chowan, NC",240,Total employment (number of jobs),6909
+37043,"Clay, NC",,Place of residence profile,
+37043,"Clay, NC",10,Personal income (thousands of dollars),489684
+37043,"Clay, NC",100,"  Population (persons) 3/",11309
+37043,"Clay, NC",,Place of work profile (thousands of dollars),
+37043,"Clay, NC",180,"  Earnings by place of work",127191
+37043,"Clay, NC",190,"    Wages and salaries",87555
+37043,"Clay, NC",240,Total employment (number of jobs),3983
+37045,"Cleveland, NC",,Place of residence profile,
+37045,"Cleveland, NC",10,Personal income (thousands of dollars),4570756
+37045,"Cleveland, NC",100,"  Population (persons) 3/",100359
+37045,"Cleveland, NC",,Place of work profile (thousands of dollars),
+37045,"Cleveland, NC",180,"  Earnings by place of work",2399342
+37045,"Cleveland, NC",190,"    Wages and salaries",1768232
+37045,"Cleveland, NC",240,Total employment (number of jobs),47544
+37047,"Columbus, NC",,Place of residence profile,
+37047,"Columbus, NC",10,Personal income (thousands of dollars),2240563
+37047,"Columbus, NC",100,"  Population (persons) 3/",50092
+37047,"Columbus, NC",,Place of work profile (thousands of dollars),
+37047,"Columbus, NC",180,"  Earnings by place of work",995481
+37047,"Columbus, NC",190,"    Wages and salaries",706049
+37047,"Columbus, NC",240,Total employment (number of jobs),22968
+37049,"Craven, NC",,Place of residence profile,
+37049,"Craven, NC",10,Personal income (thousands of dollars),5449986
+37049,"Craven, NC",100,"  Population (persons) 3/",100674
+37049,"Craven, NC",,Place of work profile (thousands of dollars),
+37049,"Craven, NC",180,"  Earnings by place of work",3681579
+37049,"Craven, NC",190,"    Wages and salaries",2571249
+37049,"Craven, NC",240,Total employment (number of jobs),59808
+37051,"Cumberland, NC",,Place of residence profile,
+37051,"Cumberland, NC",10,Personal income (thousands of dollars),15766028
+37051,"Cumberland, NC",100,"  Population (persons) 3/",335508
+37051,"Cumberland, NC",,Place of work profile (thousands of dollars),
+37051,"Cumberland, NC",180,"  Earnings by place of work",14330261
+37051,"Cumberland, NC",190,"    Wages and salaries",10206476
+37051,"Cumberland, NC",240,Total employment (number of jobs),212175
+37053,"Currituck, NC",,Place of residence profile,
+37053,"Currituck, NC",10,Personal income (thousands of dollars),1699699
+37053,"Currituck, NC",100,"  Population (persons) 3/",29653
+37053,"Currituck, NC",,Place of work profile (thousands of dollars),
+37053,"Currituck, NC",180,"  Earnings by place of work",543890
+37053,"Currituck, NC",190,"    Wages and salaries",333629
+37053,"Currituck, NC",240,Total employment (number of jobs),11847
+37055,"Dare, NC",,Place of residence profile,
+37055,"Dare, NC",10,Personal income (thousands of dollars),2605731
+37055,"Dare, NC",100,"  Population (persons) 3/",37826
+37055,"Dare, NC",,Place of work profile (thousands of dollars),
+37055,"Dare, NC",180,"  Earnings by place of work",1471066
+37055,"Dare, NC",190,"    Wages and salaries",895378
+37055,"Dare, NC",240,Total employment (number of jobs),30153
+37057,"Davidson, NC",,Place of residence profile,
+37057,"Davidson, NC",10,Personal income (thousands of dollars),8205191
+37057,"Davidson, NC",100,"  Population (persons) 3/",170637
+37057,"Davidson, NC",,Place of work profile (thousands of dollars),
+37057,"Davidson, NC",180,"  Earnings by place of work",3350135
+37057,"Davidson, NC",190,"    Wages and salaries",2383140
+37057,"Davidson, NC",240,Total employment (number of jobs),67167
+37059,"Davie, NC",,Place of residence profile,
+37059,"Davie, NC",10,Personal income (thousands of dollars),2507108
+37059,"Davie, NC",100,"  Population (persons) 3/",43533
+37059,"Davie, NC",,Place of work profile (thousands of dollars),
+37059,"Davie, NC",180,"  Earnings by place of work",938522
+37059,"Davie, NC",190,"    Wages and salaries",664582
+37059,"Davie, NC",240,Total employment (number of jobs),19829
+37061,"Duplin, NC",,Place of residence profile,
+37061,"Duplin, NC",10,Personal income (thousands of dollars),2521209
+37061,"Duplin, NC",100,"  Population (persons) 3/",48515
+37061,"Duplin, NC",,Place of work profile (thousands of dollars),
+37061,"Duplin, NC",180,"  Earnings by place of work",1374350
+37061,"Duplin, NC",190,"    Wages and salaries",818480
+37061,"Duplin, NC",240,Total employment (number of jobs),24870
+37063,"Durham, NC",,Place of residence profile,
+37063,"Durham, NC",10,Personal income (thousands of dollars),19675335
+37063,"Durham, NC",100,"  Population (persons) 3/",326126
+37063,"Durham, NC",,Place of work profile (thousands of dollars),
+37063,"Durham, NC",180,"  Earnings by place of work",25861994
+37063,"Durham, NC",190,"    Wages and salaries",20597228
+37063,"Durham, NC",240,Total employment (number of jobs),290934
+37065,"Edgecombe, NC",,Place of residence profile,
+37065,"Edgecombe, NC",10,Personal income (thousands of dollars),2179475
+37065,"Edgecombe, NC",100,"  Population (persons) 3/",48359
+37065,"Edgecombe, NC",,Place of work profile (thousands of dollars),
+37065,"Edgecombe, NC",180,"  Earnings by place of work",1066733
+37065,"Edgecombe, NC",190,"    Wages and salaries",774409
+37065,"Edgecombe, NC",240,Total employment (number of jobs),21399
+37067,"Forsyth, NC",,Place of residence profile,
+37067,"Forsyth, NC",10,Personal income (thousands of dollars),21734957
+37067,"Forsyth, NC",100,"  Population (persons) 3/",385523
+37067,"Forsyth, NC",,Place of work profile (thousands of dollars),
+37067,"Forsyth, NC",180,"  Earnings by place of work",16434279
+37067,"Forsyth, NC",190,"    Wages and salaries",12418444
+37067,"Forsyth, NC",240,Total employment (number of jobs),252167
+37069,"Franklin, NC",,Place of residence profile,
+37069,"Franklin, NC",10,Personal income (thousands of dollars),3226343
+37069,"Franklin, NC",100,"  Population (persons) 3/",71703
+37069,"Franklin, NC",,Place of work profile (thousands of dollars),
+37069,"Franklin, NC",180,"  Earnings by place of work",1019050
+37069,"Franklin, NC",190,"    Wages and salaries",693747
+37069,"Franklin, NC",240,Total employment (number of jobs),22501
+37071,"Gaston, NC",,Place of residence profile,
+37071,"Gaston, NC",10,Personal income (thousands of dollars),11198308
+37071,"Gaston, NC",100,"  Population (persons) 3/",230856
+37071,"Gaston, NC",,Place of work profile (thousands of dollars),
+37071,"Gaston, NC",180,"  Earnings by place of work",5239918
+37071,"Gaston, NC",190,"    Wages and salaries",3856835
+37071,"Gaston, NC",240,Total employment (number of jobs),104630
+37073,"Gates, NC",,Place of residence profile,
+37073,"Gates, NC",10,Personal income (thousands of dollars),519332
+37073,"Gates, NC",100,"  Population (persons) 3/",10366
+37073,"Gates, NC",,Place of work profile (thousands of dollars),
+37073,"Gates, NC",180,"  Earnings by place of work",131739
+37073,"Gates, NC",190,"    Wages and salaries",76667
+37073,"Gates, NC",240,Total employment (number of jobs),2977
+37075,"Graham, NC",,Place of residence profile,
+37075,"Graham, NC",10,Personal income (thousands of dollars),347281
+37075,"Graham, NC",100,"  Population (persons) 3/",8043
+37075,"Graham, NC",,Place of work profile (thousands of dollars),
+37075,"Graham, NC",180,"  Earnings by place of work",141193
+37075,"Graham, NC",190,"    Wages and salaries",94231
+37075,"Graham, NC",240,Total employment (number of jobs),3247
+37077,"Granville, NC",,Place of residence profile,
+37077,"Granville, NC",10,Personal income (thousands of dollars),2882582
+37077,"Granville, NC",100,"  Population (persons) 3/",61986
+37077,"Granville, NC",,Place of work profile (thousands of dollars),
+37077,"Granville, NC",180,"  Earnings by place of work",1561170
+37077,"Granville, NC",190,"    Wages and salaries",1111309
+37077,"Granville, NC",240,Total employment (number of jobs),27939
+37079,"Greene, NC",,Place of residence profile,
+37079,"Greene, NC",10,Personal income (thousands of dollars),807781
+37079,"Greene, NC",100,"  Population (persons) 3/",20417
+37079,"Greene, NC",,Place of work profile (thousands of dollars),
+37079,"Greene, NC",180,"  Earnings by place of work",317141
+37079,"Greene, NC",190,"    Wages and salaries",206204
+37079,"Greene, NC",240,Total employment (number of jobs),6919
+37081,"Guilford, NC",,Place of residence profile,
+37081,"Guilford, NC",10,Personal income (thousands of dollars),29643170
+37081,"Guilford, NC",100,"  Population (persons) 3/",542410
+37081,"Guilford, NC",,Place of work profile (thousands of dollars),
+37081,"Guilford, NC",180,"  Earnings by place of work",23309138
+37081,"Guilford, NC",190,"    Wages and salaries",17572389
+37081,"Guilford, NC",240,Total employment (number of jobs),382877
+37083,"Halifax, NC",,Place of residence profile,
+37083,"Halifax, NC",10,Personal income (thousands of dollars),2169706
+37083,"Halifax, NC",100,"  Population (persons) 3/",48272
+37083,"Halifax, NC",,Place of work profile (thousands of dollars),
+37083,"Halifax, NC",180,"  Earnings by place of work",906112
+37083,"Halifax, NC",190,"    Wages and salaries",654632
+37083,"Halifax, NC",240,Total employment (number of jobs),19974
+37085,"Harnett, NC",,Place of residence profile,
+37085,"Harnett, NC",10,Personal income (thousands of dollars),5912302
+37085,"Harnett, NC",100,"  Population (persons) 3/",135966
+37085,"Harnett, NC",,Place of work profile (thousands of dollars),
+37085,"Harnett, NC",180,"  Earnings by place of work",1859123
+37085,"Harnett, NC",190,"    Wages and salaries",1230509
+37085,"Harnett, NC",240,Total employment (number of jobs),43358
+37087,"Haywood, NC",,Place of residence profile,
+37087,"Haywood, NC",10,Personal income (thousands of dollars),3101217
+37087,"Haywood, NC",100,"  Population (persons) 3/",62476
+37087,"Haywood, NC",,Place of work profile (thousands of dollars),
+37087,"Haywood, NC",180,"  Earnings by place of work",1229939
+37087,"Haywood, NC",190,"    Wages and salaries",827611
+37087,"Haywood, NC",240,Total employment (number of jobs),27346
+37089,"Henderson, NC",,Place of residence profile,
+37089,"Henderson, NC",10,Personal income (thousands of dollars),6149222
+37089,"Henderson, NC",100,"  Population (persons) 3/",116829
+37089,"Henderson, NC",,Place of work profile (thousands of dollars),
+37089,"Henderson, NC",180,"  Earnings by place of work",2955400
+37089,"Henderson, NC",190,"    Wages and salaries",2079546
+37089,"Henderson, NC",240,Total employment (number of jobs),58112
+37091,"Hertford, NC",,Place of residence profile,
+37091,"Hertford, NC",10,Personal income (thousands of dollars),893100
+37091,"Hertford, NC",100,"  Population (persons) 3/",21278
+37091,"Hertford, NC",,Place of work profile (thousands of dollars),
+37091,"Hertford, NC",180,"  Earnings by place of work",565458
+37091,"Hertford, NC",190,"    Wages and salaries",425237
+37091,"Hertford, NC",240,Total employment (number of jobs),11155
+37093,"Hoke, NC",,Place of residence profile,
+37093,"Hoke, NC",10,Personal income (thousands of dollars),2212309
+37093,"Hoke, NC",100,"  Population (persons) 3/",53114
+37093,"Hoke, NC",,Place of work profile (thousands of dollars),
+37093,"Hoke, NC",180,"  Earnings by place of work",565823
+37093,"Hoke, NC",190,"    Wages and salaries",392605
+37093,"Hoke, NC",240,Total employment (number of jobs),14524
+37095,"Hyde, NC",,Place of residence profile,
+37095,"Hyde, NC",10,Personal income (thousands of dollars),221682
+37095,"Hyde, NC",100,"  Population (persons) 3/",4508
+37095,"Hyde, NC",,Place of work profile (thousands of dollars),
+37095,"Hyde, NC",180,"  Earnings by place of work",112535
+37095,"Hyde, NC",190,"    Wages and salaries",81709
+37095,"Hyde, NC",240,Total employment (number of jobs),3132
+37097,"Iredell, NC",,Place of residence profile,
+37097,"Iredell, NC",10,Personal income (thousands of dollars),11669888
+37097,"Iredell, NC",100,"  Population (persons) 3/",191968
+37097,"Iredell, NC",,Place of work profile (thousands of dollars),
+37097,"Iredell, NC",180,"  Earnings by place of work",7170432
+37097,"Iredell, NC",190,"    Wages and salaries",5231917
+37097,"Iredell, NC",240,Total employment (number of jobs),110809
+37099,"Jackson, NC",,Place of residence profile,
+37099,"Jackson, NC",10,Personal income (thousands of dollars),1882332
+37099,"Jackson, NC",100,"  Population (persons) 3/",43410
+37099,"Jackson, NC",,Place of work profile (thousands of dollars),
+37099,"Jackson, NC",180,"  Earnings by place of work",1195857
+37099,"Jackson, NC",190,"    Wages and salaries",868056
+37099,"Jackson, NC",240,Total employment (number of jobs),24249
+37101,"Johnston, NC",,Place of residence profile,
+37101,"Johnston, NC",10,Personal income (thousands of dollars),11087364
+37101,"Johnston, NC",100,"  Population (persons) 3/",226504
+37101,"Johnston, NC",,Place of work profile (thousands of dollars),
+37101,"Johnston, NC",180,"  Earnings by place of work",4281910
+37101,"Johnston, NC",190,"    Wages and salaries",2814070
+37101,"Johnston, NC",240,Total employment (number of jobs),87015
+37103,"Jones, NC",,Place of residence profile,
+37103,"Jones, NC",10,Personal income (thousands of dollars),465018
+37103,"Jones, NC",100,"  Population (persons) 3/",9255
+37103,"Jones, NC",,Place of work profile (thousands of dollars),
+37103,"Jones, NC",180,"  Earnings by place of work",146671
+37103,"Jones, NC",190,"    Wages and salaries",78635
+37103,"Jones, NC",240,Total employment (number of jobs),3004
+37105,"Lee, NC",,Place of residence profile,
+37105,"Lee, NC",10,Personal income (thousands of dollars),3151505
+37105,"Lee, NC",100,"  Population (persons) 3/",64138
+37105,"Lee, NC",,Place of work profile (thousands of dollars),
+37105,"Lee, NC",180,"  Earnings by place of work",1794222
+37105,"Lee, NC",190,"    Wages and salaries",1340341
+37105,"Lee, NC",240,Total employment (number of jobs),34659
+37107,"Lenoir, NC",,Place of residence profile,
+37107,"Lenoir, NC",10,Personal income (thousands of dollars),2755162
+37107,"Lenoir, NC",100,"  Population (persons) 3/",54706
+37107,"Lenoir, NC",,Place of work profile (thousands of dollars),
+37107,"Lenoir, NC",180,"  Earnings by place of work",1945912
+37107,"Lenoir, NC",190,"    Wages and salaries",1387896
+37107,"Lenoir, NC",240,Total employment (number of jobs),36010
+37109,"Lincoln, NC",,Place of residence profile,
+37109,"Lincoln, NC",10,Personal income (thousands of dollars),4964823
+37109,"Lincoln, NC",100,"  Population (persons) 3/",89670
+37109,"Lincoln, NC",,Place of work profile (thousands of dollars),
+37109,"Lincoln, NC",180,"  Earnings by place of work",1929997
+37109,"Lincoln, NC",190,"    Wages and salaries",1359825
+37109,"Lincoln, NC",240,Total employment (number of jobs),37912
+37111,"McDowell, NC",,Place of residence profile,
+37111,"McDowell, NC",10,Personal income (thousands of dollars),1921046
+37111,"McDowell, NC",100,"  Population (persons) 3/",44717
+37111,"McDowell, NC",,Place of work profile (thousands of dollars),
+37111,"McDowell, NC",180,"  Earnings by place of work",978441
+37111,"McDowell, NC",190,"    Wages and salaries",707053
+37111,"McDowell, NC",240,Total employment (number of jobs),20565
+37113,"Macon, NC",,Place of residence profile,
+37113,"Macon, NC",10,Personal income (thousands of dollars),1835954
+37113,"Macon, NC",100,"  Population (persons) 3/",37564
+37113,"Macon, NC",,Place of work profile (thousands of dollars),
+37113,"Macon, NC",180,"  Earnings by place of work",799869
+37113,"Macon, NC",190,"    Wages and salaries",538645
+37113,"Macon, NC",240,Total employment (number of jobs),17938
+37115,"Madison, NC",,Place of residence profile,
+37115,"Madison, NC",10,Personal income (thousands of dollars),925952
+37115,"Madison, NC",100,"  Population (persons) 3/",21502
+37115,"Madison, NC",,Place of work profile (thousands of dollars),
+37115,"Madison, NC",180,"  Earnings by place of work",289090
+37115,"Madison, NC",190,"    Wages and salaries",179097
+37115,"Madison, NC",240,Total employment (number of jobs),8094
+37117,"Martin, NC",,Place of residence profile,
+37117,"Martin, NC",10,Personal income (thousands of dollars),939245
+37117,"Martin, NC",100,"  Population (persons) 3/",21754
+37117,"Martin, NC",,Place of work profile (thousands of dollars),
+37117,"Martin, NC",180,"  Earnings by place of work",390577
+37117,"Martin, NC",190,"    Wages and salaries",287394
+37117,"Martin, NC",240,Total employment (number of jobs),9442
+37119,"Mecklenburg, NC",,Place of residence profile,
+37119,"Mecklenburg, NC",10,Personal income (thousands of dollars),80619972
+37119,"Mecklenburg, NC",100,"  Population (persons) 3/",1122276
+37119,"Mecklenburg, NC",,Place of work profile (thousands of dollars),
+37119,"Mecklenburg, NC",180,"  Earnings by place of work",84130777
+37119,"Mecklenburg, NC",190,"    Wages and salaries",62943244
+37119,"Mecklenburg, NC",240,Total employment (number of jobs),983580
+37121,"Mitchell, NC",,Place of residence profile,
+37121,"Mitchell, NC",10,Personal income (thousands of dollars),657965
+37121,"Mitchell, NC",100,"  Population (persons) 3/",14963
+37121,"Mitchell, NC",,Place of work profile (thousands of dollars),
+37121,"Mitchell, NC",180,"  Earnings by place of work",305439
+37121,"Mitchell, NC",190,"    Wages and salaries",220441
+37121,"Mitchell, NC",240,Total employment (number of jobs),7005
+37123,"Montgomery, NC",,Place of residence profile,
+37123,"Montgomery, NC",10,Personal income (thousands of dollars),1210332
+37123,"Montgomery, NC",100,"  Population (persons) 3/",25798
+37123,"Montgomery, NC",,Place of work profile (thousands of dollars),
+37123,"Montgomery, NC",180,"  Earnings by place of work",665089
+37123,"Montgomery, NC",190,"    Wages and salaries",472960
+37123,"Montgomery, NC",240,Total employment (number of jobs),12527
+37125,"Moore, NC",,Place of residence profile,
+37125,"Moore, NC",10,Personal income (thousands of dollars),6245470
+37125,"Moore, NC",100,"  Population (persons) 3/",102763
+37125,"Moore, NC",,Place of work profile (thousands of dollars),
+37125,"Moore, NC",180,"  Earnings by place of work",2847286
+37125,"Moore, NC",190,"    Wages and salaries",1942738
+37125,"Moore, NC",240,Total employment (number of jobs),54524
+37127,"Nash, NC",,Place of residence profile,
+37127,"Nash, NC",10,Personal income (thousands of dollars),4826728
+37127,"Nash, NC",100,"  Population (persons) 3/",95176
+37127,"Nash, NC",,Place of work profile (thousands of dollars),
+37127,"Nash, NC",180,"  Earnings by place of work",2789547
+37127,"Nash, NC",190,"    Wages and salaries",2029413
+37127,"Nash, NC",240,Total employment (number of jobs),52219
+37129,"New Hanover, NC",,Place of residence profile,
+37129,"New Hanover, NC",10,Personal income (thousands of dollars),13212775
+37129,"New Hanover, NC",100,"  Population (persons) 3/",229018
+37129,"New Hanover, NC",,Place of work profile (thousands of dollars),
+37129,"New Hanover, NC",180,"  Earnings by place of work",9893394
+37129,"New Hanover, NC",190,"    Wages and salaries",7429478
+37129,"New Hanover, NC",240,Total employment (number of jobs),170530
+37131,"Northampton, NC",,Place of residence profile,
+37131,"Northampton, NC",10,Personal income (thousands of dollars),800650
+37131,"Northampton, NC",100,"  Population (persons) 3/",17129
+37131,"Northampton, NC",,Place of work profile (thousands of dollars),
+37131,"Northampton, NC",180,"  Earnings by place of work",336869
+37131,"Northampton, NC",190,"    Wages and salaries",241999
+37131,"Northampton, NC",240,Total employment (number of jobs),7101
+37133,"Onslow, NC",,Place of residence profile,
+37133,"Onslow, NC",10,Personal income (thousands of dollars),10487249
+37133,"Onslow, NC",100,"  Population (persons) 3/",206160
+37133,"Onslow, NC",,Place of work profile (thousands of dollars),
+37133,"Onslow, NC",180,"  Earnings by place of work",7350793
+37133,"Onslow, NC",190,"    Wages and salaries",5006926
+37133,"Onslow, NC",240,Total employment (number of jobs),114004
+37135,"Orange, NC",,Place of residence profile,
+37135,"Orange, NC",10,Personal income (thousands of dollars),11165424
+37135,"Orange, NC",100,"  Population (persons) 3/",148884
+37135,"Orange, NC",,Place of work profile (thousands of dollars),
+37135,"Orange, NC",180,"  Earnings by place of work",7552877
+37135,"Orange, NC",190,"    Wages and salaries",5452859
+37135,"Orange, NC",240,Total employment (number of jobs),107420
+37137,"Pamlico, NC",,Place of residence profile,
+37137,"Pamlico, NC",10,Personal income (thousands of dollars),658619
+37137,"Pamlico, NC",100,"  Population (persons) 3/",12344
+37137,"Pamlico, NC",,Place of work profile (thousands of dollars),
+37137,"Pamlico, NC",180,"  Earnings by place of work",197552
+37137,"Pamlico, NC",190,"    Wages and salaries",128678
+37137,"Pamlico, NC",240,Total employment (number of jobs),5235
+37139,"Pasquotank, NC",,Place of residence profile,
+37139,"Pasquotank, NC",10,Personal income (thousands of dollars),1919994
+37139,"Pasquotank, NC",100,"  Population (persons) 3/",40821
+37139,"Pasquotank, NC",,Place of work profile (thousands of dollars),
+37139,"Pasquotank, NC",180,"  Earnings by place of work",1159029
+37139,"Pasquotank, NC",190,"    Wages and salaries",812746
+37139,"Pasquotank, NC",240,Total employment (number of jobs),22042
+37141,"Pender, NC",,Place of residence profile,
+37141,"Pender, NC",10,Personal income (thousands of dollars),3056917
+37141,"Pender, NC",100,"  Population (persons) 3/",62815
+37141,"Pender, NC",,Place of work profile (thousands of dollars),
+37141,"Pender, NC",180,"  Earnings by place of work",985117
+37141,"Pender, NC",190,"    Wages and salaries",648232
+37141,"Pender, NC",240,Total employment (number of jobs),23858
+37143,"Perquimans, NC",,Place of residence profile,
+37143,"Perquimans, NC",10,Personal income (thousands of dollars),677206
+37143,"Perquimans, NC",100,"  Population (persons) 3/",13130
+37143,"Perquimans, NC",,Place of work profile (thousands of dollars),
+37143,"Perquimans, NC",180,"  Earnings by place of work",175363
+37143,"Perquimans, NC",190,"    Wages and salaries",100334
+37143,"Perquimans, NC",240,Total employment (number of jobs),4238
+37145,"Person, NC",,Place of residence profile,
+37145,"Person, NC",10,Personal income (thousands of dollars),1834238
+37145,"Person, NC",100,"  Population (persons) 3/",39127
+37145,"Person, NC",,Place of work profile (thousands of dollars),
+37145,"Person, NC",180,"  Earnings by place of work",660165
+37145,"Person, NC",190,"    Wages and salaries",480076
+37145,"Person, NC",240,Total employment (number of jobs),14376
+37147,"Pitt, NC",,Place of residence profile,
+37147,"Pitt, NC",10,Personal income (thousands of dollars),9159356
+37147,"Pitt, NC",100,"  Population (persons) 3/",172169
+37147,"Pitt, NC",,Place of work profile (thousands of dollars),
+37147,"Pitt, NC",180,"  Earnings by place of work",6295187
+37147,"Pitt, NC",190,"    Wages and salaries",4414370
+37147,"Pitt, NC",240,Total employment (number of jobs),104699
+37149,"Polk, NC",,Place of residence profile,
+37149,"Polk, NC",10,Personal income (thousands of dollars),1169185
+37149,"Polk, NC",100,"  Population (persons) 3/",19656
+37149,"Polk, NC",,Place of work profile (thousands of dollars),
+37149,"Polk, NC",180,"  Earnings by place of work",383723
+37149,"Polk, NC",190,"    Wages and salaries",235646
+37149,"Polk, NC",240,Total employment (number of jobs),9008
+37151,"Randolph, NC",,Place of residence profile,
+37151,"Randolph, NC",10,Personal income (thousands of dollars),6645495
+37151,"Randolph, NC",100,"  Population (persons) 3/",145172
+37151,"Randolph, NC",,Place of work profile (thousands of dollars),
+37151,"Randolph, NC",180,"  Earnings by place of work",3064399
+37151,"Randolph, NC",190,"    Wages and salaries",2059855
+37151,"Randolph, NC",240,Total employment (number of jobs),63196
+37153,"Richmond, NC",,Place of residence profile,
+37153,"Richmond, NC",10,Personal income (thousands of dollars),1903866
+37153,"Richmond, NC",100,"  Population (persons) 3/",42724
+37153,"Richmond, NC",,Place of work profile (thousands of dollars),
+37153,"Richmond, NC",180,"  Earnings by place of work",912051
+37153,"Richmond, NC",190,"    Wages and salaries",628316
+37153,"Richmond, NC",240,Total employment (number of jobs),18113
+37155,"Robeson, NC",,Place of residence profile,
+37155,"Robeson, NC",10,Personal income (thousands of dollars),4860145
+37155,"Robeson, NC",100,"  Population (persons) 3/",116328
+37155,"Robeson, NC",,Place of work profile (thousands of dollars),
+37155,"Robeson, NC",180,"  Earnings by place of work",2460866
+37155,"Robeson, NC",190,"    Wages and salaries",1730367
+37155,"Robeson, NC",240,Total employment (number of jobs),52563
+37157,"Rockingham, NC",,Place of residence profile,
+37157,"Rockingham, NC",10,Personal income (thousands of dollars),4111401
+37157,"Rockingham, NC",100,"  Population (persons) 3/",91266
+37157,"Rockingham, NC",,Place of work profile (thousands of dollars),
+37157,"Rockingham, NC",180,"  Earnings by place of work",1563513
+37157,"Rockingham, NC",190,"    Wages and salaries",1121104
+37157,"Rockingham, NC",240,Total employment (number of jobs),35132
+37159,"Rowan, NC",,Place of residence profile,
+37159,"Rowan, NC",10,Personal income (thousands of dollars),6927867
+37159,"Rowan, NC",100,"  Population (persons) 3/",148150
+37159,"Rowan, NC",,Place of work profile (thousands of dollars),
+37159,"Rowan, NC",180,"  Earnings by place of work",3872991
+37159,"Rowan, NC",190,"    Wages and salaries",2804807
+37159,"Rowan, NC",240,Total employment (number of jobs),69451
+37161,"Rutherford, NC",,Place of residence profile,
+37161,"Rutherford, NC",10,Personal income (thousands of dollars),2736899
+37161,"Rutherford, NC",100,"  Population (persons) 3/",64586
+37161,"Rutherford, NC",,Place of work profile (thousands of dollars),
+37161,"Rutherford, NC",180,"  Earnings by place of work",1182787
+37161,"Rutherford, NC",190,"    Wages and salaries",838266
+37161,"Rutherford, NC",240,Total employment (number of jobs),26646
+37163,"Sampson, NC",,Place of residence profile,
+37163,"Sampson, NC",10,Personal income (thousands of dollars),2704135
+37163,"Sampson, NC",100,"  Population (persons) 3/",58990
+37163,"Sampson, NC",,Place of work profile (thousands of dollars),
+37163,"Sampson, NC",180,"  Earnings by place of work",1286124
+37163,"Sampson, NC",190,"    Wages and salaries",829346
+37163,"Sampson, NC",240,Total employment (number of jobs),25941
+37165,"Scotland, NC",,Place of residence profile,
+37165,"Scotland, NC",10,Personal income (thousands of dollars),1443370
+37165,"Scotland, NC",100,"  Population (persons) 3/",34227
+37165,"Scotland, NC",,Place of work profile (thousands of dollars),
+37165,"Scotland, NC",180,"  Earnings by place of work",771337
+37165,"Scotland, NC",190,"    Wages and salaries",546498
+37165,"Scotland, NC",240,Total employment (number of jobs),14859
+37167,"Stanly, NC",,Place of residence profile,
+37167,"Stanly, NC",10,Personal income (thousands of dollars),2970033
+37167,"Stanly, NC",100,"  Population (persons) 3/",63425
+37167,"Stanly, NC",,Place of work profile (thousands of dollars),
+37167,"Stanly, NC",180,"  Earnings by place of work",1278893
+37167,"Stanly, NC",190,"    Wages and salaries",875888
+37167,"Stanly, NC",240,Total employment (number of jobs),27298
+37169,"Stokes, NC",,Place of residence profile,
+37169,"Stokes, NC",10,Personal income (thousands of dollars),2056514
+37169,"Stokes, NC",100,"  Population (persons) 3/",44553
+37169,"Stokes, NC",,Place of work profile (thousands of dollars),
+37169,"Stokes, NC",180,"  Earnings by place of work",474961
+37169,"Stokes, NC",190,"    Wages and salaries",317852
+37169,"Stokes, NC",240,Total employment (number of jobs),13533
+37171,"Surry, NC",,Place of residence profile,
+37171,"Surry, NC",10,Personal income (thousands of dollars),3341516
+37171,"Surry, NC",100,"  Population (persons) 3/",71152
+37171,"Surry, NC",,Place of work profile (thousands of dollars),
+37171,"Surry, NC",180,"  Earnings by place of work",1866826
+37171,"Surry, NC",190,"    Wages and salaries",1315873
+37171,"Surry, NC",240,Total employment (number of jobs),38415
+37173,"Swain, NC",,Place of residence profile,
+37173,"Swain, NC",10,Personal income (thousands of dollars),698616
+37173,"Swain, NC",100,"  Population (persons) 3/",14136
+37173,"Swain, NC",,Place of work profile (thousands of dollars),
+37173,"Swain, NC",180,"  Earnings by place of work",415408
+37173,"Swain, NC",190,"    Wages and salaries",310237
+37173,"Swain, NC",240,Total employment (number of jobs),8648
+37175,"Transylvania, NC",,Place of residence profile,
+37175,"Transylvania, NC",10,Personal income (thousands of dollars),1732932
+37175,"Transylvania, NC",100,"  Population (persons) 3/",33165
+37175,"Transylvania, NC",,Place of work profile (thousands of dollars),
+37175,"Transylvania, NC",180,"  Earnings by place of work",673919
+37175,"Transylvania, NC",190,"    Wages and salaries",439284
+37175,"Transylvania, NC",240,Total employment (number of jobs),15456
+37177,"Tyrrell, NC",,Place of residence profile,
+37177,"Tyrrell, NC",10,Personal income (thousands of dollars),154172
+37177,"Tyrrell, NC",100,"  Population (persons) 3/",3254
+37177,"Tyrrell, NC",,Place of work profile (thousands of dollars),
+37177,"Tyrrell, NC",180,"  Earnings by place of work",65801
+37177,"Tyrrell, NC",190,"    Wages and salaries",39259
+37177,"Tyrrell, NC",240,Total employment (number of jobs),1553
+37179,"Union, NC",,Place of residence profile,
+37179,"Union, NC",10,Personal income (thousands of dollars),15539167
+37179,"Union, NC",100,"  Population (persons) 3/",243648
+37179,"Union, NC",,Place of work profile (thousands of dollars),
+37179,"Union, NC",180,"  Earnings by place of work",5768363
+37179,"Union, NC",190,"    Wages and salaries",3802246
+37179,"Union, NC",240,Total employment (number of jobs),108091
+37181,"Vance, NC",,Place of residence profile,
+37181,"Vance, NC",10,Personal income (thousands of dollars),1872958
+37181,"Vance, NC",100,"  Population (persons) 3/",42185
+37181,"Vance, NC",,Place of work profile (thousands of dollars),
+37181,"Vance, NC",180,"  Earnings by place of work",854483
+37181,"Vance, NC",190,"    Wages and salaries",645563
+37181,"Vance, NC",240,Total employment (number of jobs),18807
+37183,"Wake, NC",,Place of residence profile,
+37183,"Wake, NC",10,Personal income (thousands of dollars),81900659
+37183,"Wake, NC",100,"  Population (persons) 3/",1150204
+37183,"Wake, NC",,Place of work profile (thousands of dollars),
+37183,"Wake, NC",180,"  Earnings by place of work",60688820
+37183,"Wake, NC",190,"    Wages and salaries",46309578
+37183,"Wake, NC",240,Total employment (number of jobs),825749
+37185,"Warren, NC",,Place of residence profile,
+37185,"Warren, NC",10,Personal income (thousands of dollars),726839
+37185,"Warren, NC",100,"  Population (persons) 3/",18762
+37185,"Warren, NC",,Place of work profile (thousands of dollars),
+37185,"Warren, NC",180,"  Earnings by place of work",186829
+37185,"Warren, NC",190,"    Wages and salaries",126900
+37185,"Warren, NC",240,Total employment (number of jobs),5236
+37187,"Washington, NC",,Place of residence profile,
+37187,"Washington, NC",10,Personal income (thousands of dollars),510249
+37187,"Washington, NC",100,"  Population (persons) 3/",10892
+37187,"Washington, NC",,Place of work profile (thousands of dollars),
+37187,"Washington, NC",180,"  Earnings by place of work",168544
+37187,"Washington, NC",190,"    Wages and salaries",116406
+37187,"Washington, NC",240,Total employment (number of jobs),4192
+37189,"Watauga, NC",,Place of residence profile,
+37189,"Watauga, NC",10,Personal income (thousands of dollars),2536285
+37189,"Watauga, NC",100,"  Population (persons) 3/",54234
+37189,"Watauga, NC",,Place of work profile (thousands of dollars),
+37189,"Watauga, NC",180,"  Earnings by place of work",1668637
+37189,"Watauga, NC",190,"    Wages and salaries",1133410
+37189,"Watauga, NC",240,Total employment (number of jobs),35383
+37191,"Wayne, NC",,Place of residence profile,
+37191,"Wayne, NC",10,Personal income (thousands of dollars),5827845
+37191,"Wayne, NC",100,"  Population (persons) 3/",116835
+37191,"Wayne, NC",,Place of work profile (thousands of dollars),
+37191,"Wayne, NC",180,"  Earnings by place of work",3397477
+37191,"Wayne, NC",190,"    Wages and salaries",2287889
+37191,"Wayne, NC",240,Total employment (number of jobs),59463
+37193,"Wilkes, NC",,Place of residence profile,
+37193,"Wilkes, NC",10,Personal income (thousands of dollars),3038225
+37193,"Wilkes, NC",100,"  Population (persons) 3/",65806
+37193,"Wilkes, NC",,Place of work profile (thousands of dollars),
+37193,"Wilkes, NC",180,"  Earnings by place of work",1452050
+37193,"Wilkes, NC",190,"    Wages and salaries",956317
+37193,"Wilkes, NC",240,Total employment (number of jobs),29621
+37195,"Wilson, NC",,Place of residence profile,
+37195,"Wilson, NC",10,Personal income (thousands of dollars),3812002
+37195,"Wilson, NC",100,"  Population (persons) 3/",78369
+37195,"Wilson, NC",,Place of work profile (thousands of dollars),
+37195,"Wilson, NC",180,"  Earnings by place of work",2608992
+37195,"Wilson, NC",190,"    Wages and salaries",1948946
+37195,"Wilson, NC",240,Total employment (number of jobs),46992
+37197,"Yadkin, NC",,Place of residence profile,
+37197,"Yadkin, NC",10,Personal income (thousands of dollars),1717229
+37197,"Yadkin, NC",100,"  Population (persons) 3/",37192
+37197,"Yadkin, NC",,Place of work profile (thousands of dollars),
+37197,"Yadkin, NC",180,"  Earnings by place of work",667907
+37197,"Yadkin, NC",190,"    Wages and salaries",462682
+37197,"Yadkin, NC",240,Total employment (number of jobs),15274
+37199,"Yancey, NC",,Place of residence profile,
+37199,"Yancey, NC",10,Personal income (thousands of dollars),785772
+37199,"Yancey, NC",100,"  Population (persons) 3/",18757
+37199,"Yancey, NC",,Place of work profile (thousands of dollars),
+37199,"Yancey, NC",180,"  Earnings by place of work",287440
+37199,"Yancey, NC",190,"    Wages and salaries",193116
+37199,"Yancey, NC",240,Total employment (number of jobs),7430
+
+Legend/Footnotes
+"3/ Census Bureau midyear population estimate. BEA produced intercensal annual county population statistics for 2010 to 2019 that are tied to the Census Bureau decennial counts for 2010 and 2020. BEA developed intercensal population statistics because this data was not published when Census released county population data for 2020 and 2021, which are based on the 2020 decennial counts. BEA used the Census Bureau Das Gupta method (see https://www2.census.gov/programs-surveys/popest/technical-documentation/methodology/intercensal/2000-2010-intercensal-estimates-methodology.pdf), modified to account for an extra leap year day, to produce the intercensal population figures that will be used until Census releases its official intercensal population data."
+"  Metropolitan Areas are defined (geographically delineated) by the Office of Management and Budget (OMB) bulletin no. 20-01 issued March 6, 2020."
+Note. All dollar estimates are in thousands of current dollars (not adjusted for inflation). Statistics presented in thousands of dollars do not indicate more precision than statistics presented in millions of dollars.
+"  Last updated: November 16, 2022-- new statistics for 2021; revised statistics for 2010-2020."

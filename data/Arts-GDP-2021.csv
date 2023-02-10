@@ -1,0 +1,111 @@
+CAGDP2 Gross domestic product (GDP) by county and metropolitan area 1/
+CAGDP2 Gross domestic product (GDP) by county and metropolitan area 1/
+County
+GeoFips,GeoName,2021
+37000,North Carolina,4670567
+37001,"Alamance, NC",23718
+37003,"Alexander, NC",4379
+37005,"Alleghany, NC",10679
+37007,"Anson, NC",(D)
+37009,"Ashe, NC",4333
+37011,"Avery, NC",47777
+37013,"Beaufort, NC",6815
+37015,"Bertie, NC",1699
+37017,"Bladen, NC",727
+37019,"Brunswick, NC",85922
+37021,"Buncombe, NC",238646
+37023,"Burke, NC",6423
+37025,"Cabarrus, NC",414038
+37027,"Caldwell, NC",5588
+37029,"Camden, NC",(D)
+37031,"Carteret, NC",31926
+37033,"Caswell, NC",789
+37035,"Catawba, NC",52337
+37037,"Chatham, NC",21491
+37039,"Cherokee, NC",1199
+37041,"Chowan, NC",754
+37043,"Clay, NC",1132
+37045,"Cleveland, NC",14573
+37047,"Columbus, NC",1952
+37049,"Craven, NC",14860
+37051,"Cumberland, NC",38140
+37053,"Currituck, NC",49548
+37055,"Dare, NC",25414
+37057,"Davidson, NC",121365
+37059,"Davie, NC",5396
+37061,"Duplin, NC",(D)
+37063,"Durham, NC",132322
+37065,"Edgecombe, NC",3067
+37067,"Forsyth, NC",97961
+37069,"Franklin, NC",4139
+37071,"Gaston, NC",23465
+37073,"Gates, NC",(D)
+37075,"Graham, NC",(D)
+37077,"Granville, NC",2045
+37079,"Greene, NC",(D)
+37081,"Guilford, NC",145169
+37083,"Halifax, NC",4929
+37085,"Harnett, NC",8365
+37087,"Haywood, NC",19403
+37089,"Henderson, NC",30794
+37091,"Hertford, NC",(D)
+37093,"Hoke, NC",3415
+37095,"Hyde, NC",(D)
+37097,"Iredell, NC",277970
+37099,"Jackson, NC",36235
+37101,"Johnston, NC",18597
+37103,"Jones, NC",(D)
+37105,"Lee, NC",12651
+37107,"Lenoir, NC",6546
+37109,"Lincoln, NC",17096
+37111,"McDowell, NC",3157
+37113,"Macon, NC",27145
+37115,"Madison, NC",8708
+37117,"Martin, NC",799
+37119,"Mecklenburg, NC",1371608
+37121,"Mitchell, NC",(D)
+37123,"Montgomery, NC",6614
+37125,"Moore, NC",53947
+37127,"Nash, NC",10794
+37129,"New Hanover, NC",84659
+37131,"Northampton, NC",(D)
+37133,"Onslow, NC",21334
+37135,"Orange, NC",80769
+37137,"Pamlico, NC",10856
+37139,"Pasquotank, NC",3355
+37141,"Pender, NC",7779
+37143,"Perquimans, NC",(D)
+37145,"Person, NC",2963
+37147,"Pitt, NC",29053
+37149,"Polk, NC",42170
+37151,"Randolph, NC",20586
+37153,"Richmond, NC",3770
+37155,"Robeson, NC",4163
+37157,"Rockingham, NC",7608
+37159,"Rowan, NC",29639
+37161,"Rutherford, NC",8539
+37163,"Sampson, NC",6740
+37165,"Scotland, NC",2313
+37167,"Stanly, NC",5625
+37169,"Stokes, NC",2838
+37171,"Surry, NC",4432
+37173,"Swain, NC",23614
+37175,"Transylvania, NC",9831
+37177,"Tyrrell, NC",877
+37179,"Union, NC",48054
+37181,"Vance, NC",8439
+37183,"Wake, NC",555836
+37185,"Warren, NC",1008
+37187,"Washington, NC",359
+37189,"Watauga, NC",36966
+37191,"Wayne, NC",7655
+37193,"Wilkes, NC",4428
+37195,"Wilson, NC",12146
+37197,"Yadkin, NC",2817
+37199,"Yancey, NC",(D)
+
+Legend/Footnotes
+1/ Gross Domestic Product (GDP) is in thousands of current dollars (not adjusted for inflation). Industry detail is based on the 2012 North American Industry Classification System (NAICS).
+"  Metropolitan Areas are defined (geographically delineated) by the Office of Management and Budget (OMB) bulletin no. 20-01 issued March 6, 2020."
+(D) Not shown to avoid disclosure of confidential information; estimates are included in higher-level totals.
+"  Last updated: December 8, 2022 -- new statistics for 2021, revised statistics for 2017-2020."
