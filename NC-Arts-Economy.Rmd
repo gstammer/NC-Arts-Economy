@@ -12,23 +12,37 @@ knitr::opts_chunk$set(include = FALSE)
 
 ```{r set-up-libraries}
 library(leaflet)
-library(rgdal)
+library(geojsonsf)
 library(tidyverse)
 library(sf)
 library(sp)
 library(spdplyr)
-library(RColorBrewer)
+#library(RColorBrewer)
 library(htmlwidgets)
 ```
 
 ```{r geodata-setup}
-geo_data <- readOGR("data/north-carolina-geographic-regions.geojson")
+geo_data <- geojson_sf("data/north-carolina-geographic-regions.geojson")
 
 geo_clean <- geo_data %>%
   filter(region_type == "Other // Region") %>%
   select(county)
 
 ```
+
+```{r population-setup}
+# current data reflects 2021 estimates
+pop_data <- read.csv("https://demography.osbm.nc.gov/api/explore/v2.1/catalog/datasets/county-population-totals/exports/csv?lang=en&timezone=America%2FNew_York&use_labels=true&delimiter=%3B",
+                     sep = ";")
+
+pop_clean <- pop_data %>%
+  filter(Year == 2021, County != "State") %>%
+  rename(Population = Value) %>%
+  select(County, Population) %>%
+  rename(county = County)
+
+```
+
 
 ```{r GDP-map-setup}
 artsGDPraw <- read_csv("data/Arts-GDP-2021.csv", skip = 3)
@@ -48,6 +62,20 @@ gdp_map$info <- paste("<strong>",gdp_map$county,"</strong>", "</br>",
                        prettyNum(gdp_map$ArtsGDP * 1000, big.mark = ","))
 ```
 
+```{r GDP-PER-CAPITA-map-setup}
+gdp_per_cap <- left_join(artsGDP, pop_clean) %>%
+  mutate(GDPperCap = (ArtsGDP * 1000) / Population) %>%
+  select(county, GDPperCap)
+
+gdppercap_map <- left_join(geo_clean, gdp_per_cap)
+
+# pop-up info
+gdppercap_map$info <- paste("<strong>",gdppercap_map$county,"</strong>", "</br>",
+                       "Arts GDP Per Capita: $",
+                       prettyNum(gdppercap_map$GDPperCap, big.mark = ","))
+```
+
+
 ```{r jobs-map-setup}
 jobsraw <- read_csv("data/Arts-Employment-2021.csv", skip = 3)
 
@@ -66,6 +94,18 @@ jobs_map$info <- paste("<strong>",jobs_map$county,"</strong>", "</br>",
                        prettyNum(jobs_map$ArtsJobs, big.mark = ","))
 ```
 
+```{r jobs-PER-CAPITA-map-setup}
+jobs_per_cap <- left_join(artsjobs, pop_clean) %>%
+  mutate(jobsPerCap = (ArtsJobs * 1000) / Population) %>%
+  select(county, jobsPerCap)
+
+jobspercap_map <- left_join(geo_clean, jobs_per_cap)
+
+# pop-up info
+jobspercap_map$info <- paste("<strong>",jobspercap_map$county,"</strong>", "</br>",
+                       "Arts Jobs Per 1,000 People: ",
+                       prettyNum(jobspercap_map$jobsPerCap, big.mark = ","))
+```
 
 
 ```{r preparing-colors}
@@ -79,6 +119,16 @@ GDPlabels <- c("< $1,000,000",
                "No data")
 GDPColor <- colorBin("YlGn", domain = artsGDP$ArtsGDP, bins = GDPbins)
 
+GDPpercapbins <- c(0, 100, 200, 300, 400, 500, 3000)
+GDPpercaplabels <- c("< $100",
+               "$100 - $200",
+               "$200 - $300",
+               "$300 - $400",
+               "$400 - $500",
+               "> $500",
+               "No data")
+GDPpercapColor <- colorBin("YlGn", domain = gdp_per_cap$GDPperCap, bins = GDPpercapbins)
+
 jobsbins <- c(0, 100, 500, 1000, 5000, 10000, 25000)
 jobslabels <- c("< 100",
                "100 - 500",
@@ -88,6 +138,16 @@ jobslabels <- c("< 100",
                "> 10,000",
                "No data")
 jobscolor <- colorBin("YlGn", domain = artsjobs$ArtsJobs, bins = jobsbins)
+
+jobspercapbins <- c(0, 5, 10, 15, 20, 25, 50)
+jobspercaplabels <- c("< 5",
+               "5 - 10",
+               "10 - 15",
+               "15 - 20",
+               "20 - 25",
+               "> 25",
+               "No data")
+jobspercapcolor <- colorBin("YlGn", domain = jobs_per_cap$jobsPerCap, bins = jobspercapbins)
 ```
 
 
@@ -97,7 +157,10 @@ map <- leaflet() %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
   
   # handling different layers
-  addLayersControl(baseGroups = c("Arts Industry GDP", "Arts Industry Jobs"),
+  addLayersControl(baseGroups = c("Arts Industry GDP",
+                                  "Arts Industry GDP Per Capita",
+                                  "Arts Industry Jobs",
+                                  "Arts Industry Jobs Per 1,000 People"),
                    position = "topleft",
                    options = layersControlOptions(collapsed = FALSE)) %>%
   
@@ -121,6 +184,26 @@ map <- leaflet() %>%
             labels = GDPlabels,
             layerId = "Arts Industry GDP") %>%
   
+    # Arts GDP per capita map:
+  addPolygons(data = gdppercap_map,
+              stroke = TRUE,
+              weight = 0.5,
+              color = "#005a32",
+              opacity = 1,
+              fillColor = ~GDPpercapColor(GDPperCap),
+              fillOpacity = 0.8,
+              smoothFactor = 0.3,
+              popup = ~info,
+              highlightOptions = highlightOptions(color = "#000000", weight = 1.5,
+                                                  bringToFront = TRUE, fillOpacity = 0.5),
+              group = "Arts Industry GDP Per Capita") %>%
+  addLegend("topleft",
+            opacity = 0.8,
+            colors = c("#ffffcc", "#d9f0a3", "#addd8e", "#78c679", "#31a354", "#006837", "#888888"),
+            title = "GDP of the Arts,<br>Per Capita (2021)",
+            labels = GDPpercaplabels,
+            layerId = "Arts Industry GDP Per Capita") %>%
+  
   # Arts jobs map
   addPolygons(data = jobs_map,
               stroke = TRUE,
@@ -137,9 +220,29 @@ map <- leaflet() %>%
   addLegend("topleft",
             opacity = 0.8,
             colors = c("#ffffcc", "#d9f0a3", "#addd8e", "#78c679", "#31a354", "#006837", "#888888"),
-            title = "Employment in the Arts (2021)",
+            title = "Jobs in the Arts (2021)",
             labels = jobslabels,
             layerId = "Arts Industry Jobs") %>%
+  
+  # Arts jobs per 1,000 people map
+  addPolygons(data = jobspercap_map,
+              stroke = TRUE,
+              weight = 0.5,
+              color = "#005a32",
+              opacity = 1,
+              fillColor = ~jobspercapcolor(jobsPerCap),
+              fillOpacity = 0.8,
+              smoothFactor = 0.3,
+              popup = ~info,
+              highlightOptions = highlightOptions(color = "#000000", weight = 1.5,
+                                                  bringToFront = TRUE, fillOpacity = 0.5),
+              group = "Arts Industry Jobs Per 1,000 People") %>%
+  addLegend("topleft",
+            opacity = 0.8,
+            colors = c("#ffffcc", "#d9f0a3", "#addd8e", "#78c679", "#31a354", "#006837", "#888888"),
+            title = "Jobs in the Arts,<br>Per 1,000 People (2021)",
+            labels = jobspercaplabels,
+            layerId = "Arts Industry Jobs Per 1,000 People") %>%
   
   #handling switching legends (from noamross on github)
   htmlwidgets::onRender("
