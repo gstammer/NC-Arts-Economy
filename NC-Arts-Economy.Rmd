@@ -1,7 +1,7 @@
 ---
-title: "NC Arts Economy Mapped"
-author: "Georgie Stammer"
-date: '2023-02-09'
+title: "North Carolina's Arts Economy Mapped"
+author: "By Duke undergraduates: Georgie Stammer, Suresh Kannoth, & Oliver Hess"
+date: 'Created April, 2023'
 output: html_document
 ---
 
@@ -9,6 +9,31 @@ output: html_document
 knitr::opts_chunk$set(include = FALSE)
 ```
 
+```{r choose-data-files}
+# Edit this section to use datasets from different years
+# This will work best if the format of the dataset is the same as the original 2021 datasets taken from the BEA & OSBM
+# If the format is different, then further code alterations will be necessary in order to make the data work with the map
+
+# Population data should be from the NC OSBM's dataset "County Population Totals"
+# URL as of April, 2023: https://demography.osbm.nc.gov/explore/dataset/county-population-totals/export/?disjunctive.county&disjunctive.region&disjunctive.cog&disjunctive.msa&disjunctive.vintage&disjunctive.estimateprojection
+# To retrieve the correct link go to the Export tab, and locate the CSV option.
+# RIGHT-CLICK "Whole dataset" next to CSV & choose to copy the link address. Paste this address in the quotations below:
+
+populationDataSource <- "https://demography.osbm.nc.gov/api/explore/v2.1/catalog/datasets/county-population-totals/exports/csv?lang=en&timezone=America%2FNew_York&use_labels=true&delimiter=%3B"
+
+# GDP & employment data should be from the BEA's interactive data tables.
+# Follow the URLs here (April, 2023), or the steps below.
+# GDP data: https://apps.bea.gov/itable/?ReqID=70&step=1&acrdn=5#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyNCwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI1MDEiXSxbIkNsYXNzaWZpY2F0aW9uIiwiTkFJQ1MiXSxbIk1ham9yX0FyZWEiLCI0Il0sWyJTdGF0ZSIsWyIzNzAwMCJdXSxbIkFyZWEiLFsiWFgiXV0sWyJTdGF0aXN0aWMiLFsiNzYiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiMjAyMSJdXSxbIlllYXJCZWdpbiIsIi0xIl0sWyJZZWFyX0VuZCIsIi0xIl1dfQ==
+# Employment data: https://apps.bea.gov/itable/?ReqID=70&step=1&acrdn=5#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyNCwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCIzMyJdLFsiQ2xhc3NpZmljYXRpb24iLCJOQUlDUyJdLFsiTWFqb3JfQXJlYSIsIjQiXSxbIlN0YXRlIixbIjM3MDAwIl1dLFsiQXJlYSIsWyJYWCJdXSxbIlN0YXRpc3RpYyIsWyIxNzAwIl1dLFsiVW5pdF9vZl9tZWFzdXJlIiwiTGV2ZWxzIl0sWyJZZWFyIixbIjIwMjEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=
+# Specifically, within Regional Data: GDP and Personal Income
+# Select "Gross domestic product (GDP) by county and metropolitan area" for GDP data or "Personal income and employment by county and metropolitan area" for employment data
+# Then specify Major Area = County, State = NC, Area = All counties, Statistic = GDP/employment in Arts, Entertainment, and Recreation, & desired year
+# When you have reached the desired dataset, download it as a CSV and put this CSV into the "data" folder. Then paste the file's name into the quotations below:
+
+GDPDataSource <- "Arts-GDP-2021.csv"
+JobsDataSource <- "Arts-Employment-2021.csv"
+
+```
 
 ```{r set-up-libraries}
 library(leaflet)
@@ -17,7 +42,6 @@ library(tidyverse)
 library(sf)
 library(sp)
 library(spdplyr)
-#library(RColorBrewer)
 library(htmlwidgets)
 ```
 
@@ -32,8 +56,7 @@ geo_clean <- geo_data %>%
 
 ```{r population-setup}
 # current data reflects 2021 estimates
-pop_data <- read.csv("https://demography.osbm.nc.gov/api/explore/v2.1/catalog/datasets/county-population-totals/exports/csv?lang=en&timezone=America%2FNew_York&use_labels=true&delimiter=%3B",
-                     sep = ";")
+pop_data <- read.csv(populationDataSource, sep = ";")
 
 pop_clean <- pop_data %>%
   filter(Year == 2021, County != "State") %>%
@@ -45,7 +68,7 @@ pop_clean <- pop_data %>%
 
 
 ```{r GDP-map-setup}
-artsGDPraw <- read_csv("data/Arts-GDP-2021.csv", skip = 3)
+artsGDPraw <- read_csv(paste("data/", GDPDataSource, sep = ""), skip = 3)
 
 artsGDP <- artsGDPraw %>%
   mutate(GeoName = substr(GeoName, start = 1, stop = nchar(GeoName) - 4)) %>%
@@ -72,12 +95,12 @@ gdppercap_map <- left_join(geo_clean, gdp_per_cap)
 # pop-up info
 gdppercap_map$info <- paste("<strong>",gdppercap_map$county,"</strong>", "</br>",
                        "Arts GDP Per Capita: $",
-                       prettyNum(gdppercap_map$GDPperCap, big.mark = ","))
+                       formatC(gdppercap_map$GDPperCap, big.mark = ",", format = "f", digits = 2))
 ```
 
 
 ```{r jobs-map-setup}
-jobsraw <- read_csv("data/Arts-Employment-2021.csv", skip = 3)
+jobsraw <- read_csv(paste("data/", JobsDataSource, sep = ""), skip = 3)
 
 artsjobs <- jobsraw %>%
   mutate(GeoName = substr(GeoName, start = 1, stop = nchar(GeoName) - 4)) %>%
@@ -104,7 +127,7 @@ jobspercap_map <- left_join(geo_clean, jobs_per_cap)
 # pop-up info
 jobspercap_map$info <- paste("<strong>",jobspercap_map$county,"</strong>", "</br>",
                        "Arts Jobs Per 1,000 People: ",
-                       prettyNum(jobspercap_map$jobsPerCap, big.mark = ","))
+                       formatC(jobspercap_map$jobsPerCap, format = "f", digits = 2))
 ```
 
 
@@ -153,7 +176,7 @@ jobspercapcolor <- colorBin("YlGn", domain = jobs_per_cap$jobsPerCap, bins = job
 
 
 ```{r make-map}
-map <- leaflet() %>%
+map <- leaflet(width = "100%") %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
   
   # handling different layers
